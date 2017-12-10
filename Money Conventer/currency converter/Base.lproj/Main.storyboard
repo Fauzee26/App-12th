@@ -148,9 +148,8 @@
                                 <rect key="frame" x="16" y="147" width="343" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3D-s3-6or">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3D-s3-6or">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Main Menu" id="1XR-sc-1ls">
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -172,7 +171,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="J3D-s3-6or" firstAttribute="bottom" secondItem="62Z-bV-ORZ" secondAttribute="bottom" id="AUW-fT-chH"/>
+                            <constraint firstItem="J3D-s3-6or" firstAttribute="trailing" secondItem="62Z-bV-ORZ" secondAttribute="trailing" id="Gzz-8J-ga3"/>
                             <constraint firstItem="62Z-bV-ORZ" firstAttribute="trailing" secondItem="szT-8J-2gx" secondAttribute="trailing" constant="16" id="UjQ-ag-gjq"/>
+                            <constraint firstItem="J3D-s3-6or" firstAttribute="leading" secondItem="62Z-bV-ORZ" secondAttribute="leading" id="Ybu-No-98J"/>
                             <constraint firstItem="szT-8J-2gx" firstAttribute="top" secondItem="62Z-bV-ORZ" secondAttribute="top" constant="16" id="c6N-Hc-LX9"/>
                             <constraint firstItem="szT-8J-2gx" firstAttribute="leading" secondItem="62Z-bV-ORZ" secondAttribute="leading" constant="16" id="wEB-Cf-Ig4"/>
                         </constraints>
